@@ -516,5 +516,5 @@ public class MyException extends RuntimeException{
 
 ## 7. 总结
 
-[![exception.png](https://z3.ax1x.com/2021/10/21/5s6kFO.png)](https://imgtu.com/i/5s6kFO)
+![exception](https://jswanyu-1309100582.cos.ap-shanghai.myqcloud.com/picgo/exception.png)
 

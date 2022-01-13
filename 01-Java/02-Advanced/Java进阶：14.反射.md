@@ -136,7 +136,7 @@ ClassLoader（类加载器）的理解：
 
 类加载器作用是用来把类(class)装载进内存的。JVM 规范定义了如下类型的类的加载器。
 
-[![Tu2Lkj.png](https://s4.ax1x.com/2021/12/20/Tu2Lkj.png)](https://imgtu.com/i/Tu2Lkj)
+![类加载器](https://jswanyu-1309100582.cos.ap-shanghai.myqcloud.com/picgo/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8.png)
 
 ```java
 @Test

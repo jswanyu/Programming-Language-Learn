@@ -91,7 +91,7 @@ java.io包下提供了各种“流”类和接口，用以获取不同种类的�
 
 Java的IO流共涉及40多个类，实际上非常规则，都是从下表第一行中4个抽象基类派生的
 
-[![TSreeI.png](https://s4.ax1x.com/2021/12/15/TSreeI.png)](https://imgtu.com/i/TSreeI)
+![IO流体系](https://jswanyu-1309100582.cos.ap-shanghai.myqcloud.com/picgo/IO%E6%B5%81%E4%BD%93%E7%B3%BB.png)
 
 颜色加深的部分更为常用：文件流、缓冲流、转换流、对象流
 

@@ -833,7 +833,7 @@ HashMap中key-value的特点如上文所述，HashMap判断两个key相等的标
 
 HashMap的内部存储结构其实是**数组+链表**的结合。当实例化一个HashMap时，系统会创建一个长度为Capacity的Entry数组，这个长度在哈希表中被称为容量(Capacity)，在这个数组中可以存放元素的位置我们称之为“桶”(bucket)，每个bucket都有自己的索引，系统可以根据索引快速的查找bucket中的元素。每个bucket中存储一个元素，即一个Entry对象，但每一个Entry对象可以带一个引用变量，用于指向下一个元素，因此，在一个桶中，就有可能生成一个Entry链，而且新添加的元素作为链表的head（旧元素放在链表后面）。
 
-[![I7AbEn.png](https://z3.ax1x.com/2021/11/18/I7AbEn.png)](https://imgtu.com/i/I7AbEn)
+![HashMap_JDK7](https://jswanyu-1309100582.cos.ap-shanghai.myqcloud.com/picgo/HashMap_JDK7.png)
 
 ```java
 HashMap map = new HashMap():
@@ -863,7 +863,7 @@ map.put(key1,value1)；
 
 HashMap是数组+链表+红黑树实现
 
-[![I7AqNq.png](https://z3.ax1x.com/2021/11/18/I7AqNq.png)](https://imgtu.com/i/I7AqNq)
+![HashMap_JDK8](https://jswanyu-1309100582.cos.ap-shanghai.myqcloud.com/picgo/HashMap_JDK8.png)
 
 相比于JDK7，JDK8的添加元素过程类似，但不同之处有很多：
 
